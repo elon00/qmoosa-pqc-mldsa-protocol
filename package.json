@@ -1,0 +1,29 @@
+{
+  "name": "@qmoosa/pqc-mldsa-protocol",
+  "version": "1.0.0",
+  "description": "QMOOSA Post-Quantum Cryptography — NIST FIPS 204 ML-DSA Digital Signature Protocol Specification",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test tests/protocol.test.mjs",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  },
+  "keywords": [
+    "qmoosa",
+    "pqc",
+    "fips-204",
+    "ml-dsa",
+    "dilithium",
+    "digital-signatures",
+    "post-quantum",
+    "web4"
+  ],
+  "author": "elon00",
+  "license": "MIT"
+}
